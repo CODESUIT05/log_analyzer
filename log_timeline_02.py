@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Set your paths explicitly
-logs_dir = r"D:\msc dfis\python\log_Analysis\LOG ANALYSIS\logs"
-reports_dir = r"D:\msc dfis\python\log_Analysis\LOG ANALYSIS\reports"
+logs_dir = r" "#Enter the directory path of logs 
+reports_dir = r" "#enter output directory for reports
 os.makedirs(reports_dir, exist_ok=True)
 
 def parse_log_line(line):

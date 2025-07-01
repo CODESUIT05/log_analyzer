@@ -96,8 +96,8 @@ def detect_anomalies(df, output_dir):
 
 if __name__ == "__main__":
     # Set paths as variables for clean workflow
-    log_folder = r"D:\msc dfis\python\log_Analysis\LOG ANALYSIS\logs"
-    output_dir = r"D:\msc dfis\python\log_Analysis\LOG ANALYSIS\reports"
+    log_folder = r" "#logs path
+    output_dir = r" "#ooutput path
     os.makedirs(output_dir, exist_ok=True)
 
     print(" Loading and parsing .vlog files for Day 3 anomaly detection...")

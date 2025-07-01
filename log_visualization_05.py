@@ -151,14 +151,14 @@ if __name__ == "__main__":
 
     suspicious_df = detect_suspicious_activities(df)
 
-    output_dir = os.path.join(os.getcwd(), 'reports_day5')
+    output_dir = os.path.join(os.getcwd(), 'reports')
     os.makedirs(output_dir, exist_ok=True)
 
-    suspicious_csv = os.path.join(output_dir, 'day5_suspicious_report.csv')
+    suspicious_csv = os.path.join(output_dir, 'suspicious_report.csv')
     suspicious_df.to_csv(suspicious_csv, index=False)
     print(f"Detailed suspicious activity CSV saved: {suspicious_csv}")
 
     generate_visual(suspicious_df, output_dir)
     generate_pdf_report(suspicious_df, output_dir)
 
-    print(" analysis completed. Check your 'reports_5' folder for CSV, visualization, and PDF report.")
+    print(" analysis completed..")

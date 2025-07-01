@@ -6,8 +6,8 @@ import re
 import matplotlib.pyplot as plt
 
 # --------------------- CONFIG ---------------------
-LOG_DIR = r"D:\msc dfis\python\log_Analysis\LOG ANALYSIS\logs"
-OUTPUT_DIR = r"D:\msc dfis\python\log_Analysis\LOG ANALYSIS\reports"
+LOG_DIR = r" "#log directory
+OUTPUT_DIR = r" "#output directory
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # --------------------- PARSE LOGS ---------------------
